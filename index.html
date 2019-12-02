@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gabi Kinney's Resume</title>
+    <link rel="stylesheet" type="text/css" href="resume.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,400i,700,900|Playfair+Display:400,900&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<body>
+<div class="container">
+    <p id="top"></p>
+    <div class="header2">
+        <b>KINNE234@UMN.EDU | 612-708-6239</b><br>
+        6369 Polaris Ln North, Maple Grove, MN 55311<br>
+    </div>
+    <header>GABI <b class="title">KINNEY</b></header>
+    <nav>
+        <a href="#section-01">EDUCATION</a>
+        <a href="#section-02">EXPERIENCE</a>
+        <a href="#section-03">SKILLS</a>
+        <a href="https://www.gabikinney.com">PORTFOLIO</a>
+    </nav>
+    <section class="education" id="section-01">
+        <h1 style="padding-bottom: 15px;">EDUCATION</h1>
+        <p class="intro">UNIVERSITY OF MINNESOTA - TWIN CITIES | CLASS OF 2020</p>
+        <ul>
+            <li>Bachelor of Science in Psychology - GPA: 3.987, Dean's List Fall 2016 - Spring 2019</li>
+            <li>Double-Major in Journalism: Strategic Communications, Minor in Interdisciplinary Design</li>
+            <li>Kappa Tau Alpha member since Spring 2019</li>
+            <li>Relevant Coursework: Media Planning, Advertising Strategy and Creative Development, Psychology of Advertising, Media Design, Digital Strategy in Strategic Communications</li>
+        </ul>
+    </section>
+    <section class="experience" id="section-02"><h1>EXPERIENCE</h1>
+    <table>
+        <tr>
+            <td><b>UNIVERSITY OF MINNESOTA</b></td>
+            <td class="right"><b>Minneapolis, MN</b></td>
+        </tr>
+        <tr>
+            <td><i>&nbsp;&nbsp;Psychology Undergraduate Peer Advisor</i></td>
+            <td class="right"><i>Jul 2017 - Present</i></td>
+        </tr>
+    </table>
+                <ul>
+                <li>Communicate professionally with students and faculty regarding psychology curriculum</li>
+                <li>Plan events for 30-100 students, including a new faculty spotlight series</li>
+                <li>Manage social media platforms and create a newsletter that reaches 5,500+ students and alumni</li>
+                <li>Direct and design a yearly report that displays office accomplishments and statistics to the University</li>
+            </ul>
+       <table>
+        <tr>
+            <td><i>&nbsp;&nbsp;Graphic Design Freelancer</i><br>
+            </td>
+            <td class="right">
+                <i>Jun 2019 - Sep 2019</i></td>
+        </tr>
+       </table>
+                <ul>
+                    <li>Developed a brand identity for the University's Psychology department</li>
+                    <li>Implemented new font and color guidelines into marketing materials</li>
+                </ul>
+        <table>
+            <tr>
+                <td><b>BELLAGALA</b>
+                </td>
+                <td class="right"><b>St.Paul, MN</b></td>
+            </tr>
+            <Tr>
+                <td><i>&nbsp;&nbsp;Social Media Intern</i><br></td>
+                <td class="right"><i>May 2019 - Aug 2019</i></td>
+            </Tr>
+            <br>
+        </table>
+        <ul>
+            <li>Crafted and scheduled Instagram and Facebook posts for Bellagala's four brands</li>
+            <li>Interacted with followers and drafted sponsored content based on audience insights</li>
+            <li>Implemented a system for tracking engagement and follower trends for each account</li>
+        </ul>
+        <br>
+        <table>
+            <tr>
+                <td><b>ALLIANCE MAGAZINE</b></td>
+                <td class="right"><b>London, UK</b></td>
+            </tr>
+            <tr>
+                    <td><i>&nbsp;&nbsp;Communications and Marketing Intern</i></td>
+                <td class="right"><i>Jan 2019 - Apr 2019</i></td>
+            </tr>
+        </table>
+        <ul>
+            <li>Assisted on marketing projects to advance and promote subscription offers to new readers</li>
+            <li>Provided digital coverage of company events hosted in London, England</li>
+            <li>Created graphics and copy for promotional campaigns using MailChimp and WordPress</li>
+        </ul>
+        <br>
+        <table>
+            <tr>
+                <td><b>PHI MU FRATERNITY</b>
+                </td>
+                <td class="right"><b>Minneapolis, MN</b></td>
+            </tr>
+            <tr>
+                <td><i>&nbsp;&nbsp;Treasurer</i>
+                </td>
+                <td class="right">
+                    <i>Dec 2017 - Dec 2018</i></td>
+            </tr>
+        </table>
+        <ul>
+            <li>Created and managed a $250,000 budget; presented the proposed budget to 130+ women</li>
+            <li>Oversaw the spending of 15 committees and ensured that budgets were adhered to</li>
+        </ul>
+    </section>
+    <section class="skills" id="section-03"><h1>SKILLS</h1>
+    <table>
+        <tr><td>
+            <ul>
+                <li>Adobe Creative Suite</li>
+                <li>G Suite/WordPress/Wix</li>
+                <li>Task Management</li>
+                <li>Copywriting</li>
+            </ul>
+        </td>
+        <td>
+            <ul>
+                <li>HTML/CSS</li>
+                <li>Google Ad Academy</li>
+                <li>HubSpot Social Media Academy</li>
+                <li>Problem Solving</li>
+            </ul>
+        </td>
+            <td>
+            <ul>
+                <li>Social Media Marketing</li>
+                <li>Microsoft Office Suite</li>
+                <li>Event Planning</li>
+                <li>Team Management</li>
+            </ul>
+        </td></tr>
+    </table>
+        <BR>
+        <a href="#top" class="link">BACK TO TOP</a>
+    </section>
+    <footer>
+        Credit: Gabi Kinney
+    </footer>
+</div>
+<script>
+    $(document).ready(function(){
+// Add smooth scrolling to all links
+        $("a").on('click', function(event) {
+
+// Make sure this.hash has a value before overriding default behavior
+            if (this.hash !== "") {
+// Prevent default anchor click behavior
+                event.preventDefault();
+
+// Store hash
+                var hash = this.hash;
+
+// Using jQuery's animate() method to add smooth page scroll
+// The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                }, 800, function(){
+
+// Add hash (#) to URL when done scrolling (default click behavior)
+                    window.location.hash = hash;
+                });
+            } // End if
+        });
+    });
+</script>
+</body>
+</html>
